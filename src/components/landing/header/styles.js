@@ -17,6 +17,7 @@ export const HeaderBar = styled.header `
     button {
         width: 182px;
         height: 52px;
+        margin-right: 40px;
         background-color: #FBB034;
         font-weight: 700;
         text-align: center;
@@ -40,7 +41,7 @@ export const HeaderBar = styled.header `
         button {
             margin-right: 20px;
             height: 40px;
-            width: 100px;
+            width: 120px;
             font-size: 12px;
         }
     }

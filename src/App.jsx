@@ -1,12 +1,16 @@
-import Home from "./pages/Home";
+import React from 'react'
+import { Landing } from "../src/components/landing";
+import AboutUs from '../src/components/about';
+import Book from '../src/components/book';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Home />
-      
-    </div>
-  );
+    <>
+        <Landing />
+        <AboutUs />
+        <Book />
+    </>
+  )
 }
 
-export default App;
+export default App

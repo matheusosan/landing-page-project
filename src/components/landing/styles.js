@@ -28,7 +28,7 @@ export const Image = styled.img `
     right: 0;
     bottom: 0;
     width: 820px;
-    height: 725px;
+    height: 700px;
 
     
 
