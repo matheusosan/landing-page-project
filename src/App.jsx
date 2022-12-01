@@ -1,7 +1,7 @@
 import React from 'react'
 import { Landing } from "../src/components/landing";
 import AboutUs from '../src/components/about';
-import Book from './components/book-now';
+import  { Book } from '../src/components/book-now';
 
 const App = () => {
   return (
