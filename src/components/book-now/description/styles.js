@@ -48,7 +48,7 @@ export const StyledDescription = styled.div `
         border: none;
     }
 
-    @media (max-width: 375px) {
+    @media (max-width: 415px) {
         align-items: center;
 
         span, h2, p, button {
@@ -99,7 +99,7 @@ export const CallNow = styled.div `
         color: black;
     }
 
-    @media (max-width: 375px) {
+    @media (max-width: 415px) {
         display: none;
     }
 `

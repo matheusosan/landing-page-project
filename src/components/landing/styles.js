@@ -32,7 +32,7 @@ export const Image = styled.img `
 
     
 
-    @media (max-width: 375px) {
+    @media (max-width: 415px) {
             display: none;
     }    
     

@@ -27,7 +27,7 @@ export const MainText = styled.main `
 
     }
 
-    @media (max-width: 375px) {
+    @media (max-width: 415px) {
         margin-left: 30px;
 
         h1 {
@@ -63,7 +63,7 @@ export const ButtonsBox = styled.div `
         color: #fff
     }
 
-    @media (max-width: 375px) {
+    @media (max-width: 415px) {
         button {
         width: 120px;
     }

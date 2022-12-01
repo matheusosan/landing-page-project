@@ -32,7 +32,7 @@ export const HeaderBar = styled.header `
         scale: 105%;
     }
 
-    @media (max-width: 375px) {
+    @media (max-width: 415px) {
         svg {
             display: flex;
             margin-left: 20px;
@@ -71,7 +71,7 @@ export const Nav = styled.nav `
 
     }
 
-    @media (max-width: 375px) {
+    @media (max-width: 415px) {
         a {
             display: none;
         }

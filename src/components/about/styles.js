@@ -40,7 +40,7 @@ export const AboutMain = styled.div `
         border: none;
     }
     
-    @media (max-width: 375px) {
+    @media (max-width: 415px) {
         align-items: center;
 
         h2 {
