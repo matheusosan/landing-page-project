@@ -4,7 +4,8 @@ export const MainText = styled.main `
     display: flex;
     flex-direction: column;
     position: absolute;
-    left: 115px;
+    justify-content: center;;
+    margin-left: 115px;
 
     span {
         margin-bottom: 22px;
@@ -24,6 +25,19 @@ export const MainText = styled.main `
         font-weight: 400;
         font-size: 21px;
 
+    }
+
+    @media (max-width: 375px) {
+        margin-left: 30px;
+
+        h1 {
+            font-size: 20px;
+        }
+
+        p {
+        font-size: 15px;
+
+    }
     }
 `
 
@@ -49,4 +63,9 @@ export const ButtonsBox = styled.div `
         color: #fff
     }
 
+    @media (max-width: 375px) {
+        button {
+        width: 120px;
+    }
+    }
 `

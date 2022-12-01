@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 export const AboutMain = styled.div `
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: #ffff;
     height: 80vh;
     width: 100%;
@@ -39,5 +40,18 @@ export const AboutMain = styled.div `
         border: none;
     }
     
+    @media (max-width: 375px) {
+        align-items: center;
+
+        h2 {
+            font-size: 30px;
+
+        }
+
+        p {
+            font-size: 15px;
+            padding: 0px 20px;
+        }
+    }
 
 `

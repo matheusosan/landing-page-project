@@ -3,11 +3,10 @@ import styled from "styled-components";
 export const Main = styled.main `
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100vw;
+    width: 100%;
     position: relative;
     
-
+    
 `
 
 export const Background = styled.img `
@@ -22,7 +21,6 @@ export const BlackFilter = styled.div `
     width: 100%;
     background-color: #000000c7;
     position: absolute;
-
 `
 
 export const Image = styled.img `
@@ -31,4 +29,11 @@ export const Image = styled.img `
     bottom: 0;
     width: 820px;
     height: 725px;
+
+    
+
+    @media (max-width: 375px) {
+            display: none;
+    }    
+    
 `
