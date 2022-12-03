@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
-export const BookMain = styled.main `
+export const BookContainer = styled.main `
     display: flex;
     height: 80vh;
     width: 100%;
     background-color: black;
 `
 
-export const Background = styled.img `
+export const BackgroundImage = styled.img `
     width: 100%;
     height: 80vh;
     filter: blur(3px);
@@ -17,7 +17,7 @@ export const Background = styled.img `
     background-size: contain;
 `
 
-export const Blur = styled.div `
+export const ImageBlur = styled.div `
     height: inherit;
     width: inherit;
     position: absolute; 

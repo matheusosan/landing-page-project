@@ -1,11 +1,11 @@
 import React from "react";
 import { AiFillPhone } from 'react-icons/ai';
-import { StyledDescription, StyledMain, CallNow } from "./styles";
+import { DescriptionContainer, Description, CallNow } from "./styles";
 
 const BookDescription = () => {
   return (
-    <StyledMain>
-      <StyledDescription>
+    <DescriptionContainer>
+      <Description>
         <span>Book Now</span>
         <h2>
           Book your Appointment <br />
@@ -13,7 +13,7 @@ const BookDescription = () => {
         </h2>
         <p>Get 10% Discount on your first hair cut by using our website.</p>
         <button>Book Appointment</button>
-      </StyledDescription>
+      </Description>
       <CallNow>
         <div>
             <AiFillPhone />
@@ -21,7 +21,7 @@ const BookDescription = () => {
         <h2>Call Now</h2>
         <p>0300 7715325</p>
       </CallNow>
-    </StyledMain>
+    </DescriptionContainer>
   );
 };
 

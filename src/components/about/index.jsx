@@ -1,9 +1,18 @@
 import React from "react";
-import { AboutMain } from "./styles";
+import { AboutContainer, ImagesContainer, AboutText } from "./styles";
+import Img1 from "./img1.png";
+import Img2 from "./img2.png";
+import Img3 from "./img3.png";
 
 const AboutUs = () => {
   return (
-    <AboutMain>
+    <AboutContainer>
+      <ImagesContainer>
+        <img src={Img1} alt="" />
+        <img src={Img2} alt="" />
+        <img src={Img3} alt="" />
+      </ImagesContainer>
+      <AboutText>
         <span>About Us</span>
         <h2>
           Best Haircut Salon <br />
@@ -17,7 +26,8 @@ const AboutUs = () => {
           us for your favorite hair Styles!
         </p>
         <button>Read More</button>
-    </AboutMain>
+      </AboutText>
+    </AboutContainer>
   );
 };
 

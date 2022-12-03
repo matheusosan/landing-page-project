@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledMain = styled.main `
+export const DescriptionContainer = styled.main `
     display: flex;
     width: 100%;
     height: inherit;
@@ -10,7 +10,7 @@ export const StyledMain = styled.main `
     gap: 20em;
 `
 
-export const StyledDescription = styled.div `
+export const Description = styled.div `
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,7 +40,8 @@ export const StyledDescription = styled.div `
 
     button {
         margin-top: 43px;
-        width: 188px;
+        width: 251px;
+        color: #fff;
         height: 52px;
         font-size: 15px;
         font-weight: 700;

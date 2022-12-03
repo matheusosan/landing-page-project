@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
-export const AboutMain = styled.div `
+export const AboutContainer = styled.div `
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    gap: 10em;
     background-color: #ffff;
     height: 80vh;
     width: 100%;
@@ -54,4 +54,33 @@ export const AboutMain = styled.div `
         }
     }
 
+`
+
+export const ImagesContainer = styled.div `
+    display: flex;
+    gap: 2em;
+    margin-top: -15vh;
+    position: relative;
+
+    img:nth-child(1) {
+        clip-path: polygon(100% 0, 100% 54%, 67% 54%, 67% 100%, 0 100%, 0% 60%, 0 0);
+    }
+    
+    img:nth-child(2) {
+        width: 161px;
+        height: 118px;
+    } 
+    img:nth-child(3) {
+        width: 214px;
+        height: 292px;
+        position: absolute;
+        top: 170px;
+        left: 150px;
+        
+    }
+`
+
+export const AboutText = styled.div `
+    display: flex;
+    flex-direction: column;
 `

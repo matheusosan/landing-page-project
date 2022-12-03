@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Main = styled.main `
+export const LandingContainer = styled.main `
     display: flex;
     align-items: center;
     width: 100%;

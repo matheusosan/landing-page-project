@@ -1,15 +1,15 @@
 import React from 'react'
-import { BookMain, Background, Blur } from './styles'
+import { BookContainer, BackgroundImage, ImageBlur } from './styles'
 import BookImage from './book.jpg'
 import BookDescription from './description'
 
 export const Book = () => {
   return (
-    <BookMain>
-        <Background src={BookImage} alt="" />
-        <Blur />
+    <BookContainer>
+        <BackgroundImage src={BookImage} alt="" />
+        <ImageBlur />
         <BookDescription />
-    </BookMain>
+    </BookContainer>
   )
 }
 
