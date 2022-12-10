@@ -13,43 +13,56 @@ export const WorkingSection = styled.section`
 export const WorkingContent = styled.div`
   display: flex;
   height: 393px;
-  width: 1135px;
+  width: 70%;
+  background: #FBB034;
 
   img {
     width: 50%;
-    height: 393px;
+    height: 100%;
   }
 
-  div {
-    width: 100%;
+  >div {
+    width: 30%;
     height: inherit 
   }
 `;
 
-export const WorkingText = styled.div`
+export const WorkingText = styled.div `
   display: flex;
-  flex-direction: column;
+  background: inherit;
   justify-content: center;
-  background-color: #fbb034;
+  flex-direction: column;
+  margin-left: 4rem;
+  margin-right: 10rem;
+  /* background: inherit; */
 
-  h2 {
+  >h2 {
+    color: #fff;
     font-size: 32px;
-    color: white;
-    font-weight: 700
   }
 
-  p {
+  >div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px dotted black;
+    margin-top: 1rem;
+  }
+  >div>h2 {
+    color: #fff;
+    font-size: 16px;
+  }
+  >div>p {
+    font-size: 13px;
+  }
+
+  >button {
+    margin-top: 1rem;
+    width: 166px;
+    height: 39px;
+    background: inherit;
+    border: 1px solid black;
+    font-weight: 400;
     font-size: 18px;
   }
-
-  div {
-    display: flex;
-    width: 50%;
-    border-bottom: 2px dotted black;
-  }
-
-  div>h2 {
-    font-size: 18px
-  }
-
-`;
+`
