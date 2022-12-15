@@ -15,7 +15,6 @@ export const Description = styled.div `
     flex-direction: column;
     justify-content: center;
 
-
     span {
         top: 50%;
         font-weight: 400;
@@ -103,4 +102,4 @@ export const CallNow = styled.div `
     @media (max-width: 415px) {
         display: none;
     }
-`
+` 

@@ -1,14 +1,14 @@
 import React from 'react'
-import { BookContainer, BackgroundImage, ImageBlur } from './styles'
-import BookImage from './book.jpg'
+import { BookContainer } from './styles'
 import BookDescription from './description'
 
+
 export const Book = () => {
+
+
   return (
     <BookContainer>
-        <BackgroundImage src={BookImage} alt="" />
-        <ImageBlur />
-        <BookDescription />
+        <BookDescription/>
     </BookContainer>
   )
 }

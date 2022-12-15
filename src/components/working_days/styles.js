@@ -57,12 +57,12 @@ export const WorkingText = styled.div `
   }
 
   >button {
-    margin-top: 1rem;
+    margin-top: 2rem;
     width: 166px;
     height: 39px;
     background: inherit;
     border: 1px solid black;
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 700;
+    font-size: 16px;
   }
 `

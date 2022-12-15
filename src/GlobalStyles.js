@@ -8,5 +8,10 @@ export const GlobalStyle = createGlobalStyle `
         box-sizing: border-box;
 
     }
-
+    a:visited {
+        color: #fff;
+    }
+    button {
+        cursor: pointer;
+    }
 `

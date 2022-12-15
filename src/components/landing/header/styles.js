@@ -9,6 +9,8 @@ export const HeaderBar = styled.header `
     height: 15vh;
     top: 0;
 
+
+
     svg {
         color: #fff;
         font-size: 40px;
