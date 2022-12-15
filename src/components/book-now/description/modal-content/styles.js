@@ -15,3 +15,4 @@ export const StyledModal = styled.div `
         font-size: 32px;
     }
 `
+

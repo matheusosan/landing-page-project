@@ -1,34 +1,13 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import Modal from "react-modal";
 import { AiFillPhone } from "react-icons/ai";
 import { DescriptionContainer, Description, CallNow } from "./styles";
 import ModalContent from "./modal-content";
+import { ModalContext } from "../../../contexts/contexts";
+import { CustomStyles } from "./modal-content/modal";
 
-const BookDescription = (props) => {
-  const [modal, setModal] = useState(false);
-
-  const openModal = (modal) => {
-    setModal(true);
-  };
-
-  const closeModal = (modal) => {
-    setModal(false);
-  };
-
-  // MODAL
-  const customStyles = {
-    content: {
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      flexDirection: 'column',
-      width: "50%",
-      height: "50%",
-      top: "50%",
-      left: "50%",
-      transform: "translate(-50%, -50%)",
-    },
-  };
+const BookDescription = () => {
+  const { modal, openModal, closeModal } = useContext(ModalContext);
 
   return (
     <DescriptionContainer>
@@ -44,10 +23,11 @@ const BookDescription = (props) => {
         <Modal
           isOpen={modal}
           onRequestClose={closeModal}
-          style={customStyles}
+          style={CustomStyles}
           contentLabel="Example Modal"
+          ariaHideApp={false}
         >
-        <ModalContent />
+          <ModalContent />
         </Modal>
       </Description>
       <CallNow>
