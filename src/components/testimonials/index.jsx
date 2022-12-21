@@ -21,7 +21,7 @@ const Testimonials = () => {
         <button>Give Reviews</button>
       </div>
       <div>
-        <div>
+        <div className="user-reviews">
           <img src={Julian} alt="" />
           <p>
             It was an amazing experience to get services from the best in its
@@ -37,7 +37,7 @@ const Testimonials = () => {
           <h2>Umar Usman</h2>
           <p>Regular User</p>
         </div>
-        <div>
+        <div className="user-reviews">
           <img src={Marie} alt="" />
           <p>
             It was an amazing experience to get services from the best in its

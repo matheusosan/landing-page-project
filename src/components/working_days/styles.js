@@ -25,6 +25,14 @@ export const WorkingContent = styled.div`
     width: 30%;
     height: inherit 
   }
+
+  @media (max-width: 420px) {
+    height: auto;
+
+    img {
+      display: none;
+    }
+  }
 `;
 
 export const WorkingText = styled.div `
@@ -64,5 +72,11 @@ export const WorkingText = styled.div `
     border: 1px solid black;
     font-weight: 700;
     font-size: 16px;
+  }
+
+  @media (max-width: 420px) {
+    button {
+      margin-bottom: 2rem;
+    }
   }
 `

@@ -48,15 +48,17 @@ export const Description = styled.div `
         border: none;
     }
 
-    @media (max-width: 415px) {
+    @media (max-width: 420px) {
         align-items: center;
 
-        span, h2, p, button {
-            margin-left: 30px;
+        h2 {
+            font-size: 1.8rem;
+            padding: 0px 50px;
+            text-align: center;
         }
 
-        h2 {
-            font-size: 30px;
+        p {
+            padding: 0px 50px;
         }
 
     }

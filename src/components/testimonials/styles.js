@@ -49,7 +49,7 @@ export const Testimonials = styled.section`
     gap: 4rem;
     background-color: inherit;
 
-    > div {
+    .user-reviews {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -85,5 +85,27 @@ export const Testimonials = styled.section`
       color: #fbb034;
       font-size: 30px;
     }
+  }
+
+  @media (max-width: 420px) {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+
+    >div {
+      align-items: center;
+      text-align: center;
+      
+      >p {
+        font-size: 1rem;
+        padding: 0px 4rem;
+      }
+    }
+
+    > :nth-child(2) {
+      flex-direction: column;
+      margin-bottom: 5rem;
+    }
+
   }
 `;

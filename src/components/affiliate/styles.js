@@ -20,7 +20,7 @@ export const AffiliateSection = styled.section`
 
   h3 {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 2.25rem;
     line-height: 94%;
     color: #fff;
     text-align: center;
@@ -36,5 +36,12 @@ export const AffiliateSection = styled.section`
     font-size: 15px;
     border: 1px solid #fbb034;
     color: #fbb034;
+  }
+
+  @media (max-width: 420px) {
+    h3 {
+      font-size: 1.6rem;
+      padding: 0px 50px;
+    }
   }
 `;

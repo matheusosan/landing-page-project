@@ -40,17 +40,17 @@ export const AboutContainer = styled.div `
         border: none;
     }
     
-    @media (max-width: 415px) {
+    @media (max-width: 420px) {
         align-items: center;
 
         h2 {
-            font-size: 30px;
+            font-size: 1.8rem;
 
         }
 
         p {
             font-size: 15px;
-            padding: 0px 20px;
+            padding: 0px 50px;
         }
     }
 
@@ -78,9 +78,14 @@ export const ImagesContainer = styled.div `
         left: 150px;
         
     }
+
+    @media (max-width: 420px) {
+    display: none;
+  }
 `
 
 export const AboutText = styled.div `
     display: flex;
+    align-items: center;
     flex-direction: column;
 `
