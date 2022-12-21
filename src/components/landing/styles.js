@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import img from './bg.jpeg'
+import img from './bg2.jpg'
 
 export const LandingContainer = styled.div `
     display: flex;
@@ -10,12 +10,6 @@ export const LandingContainer = styled.div `
     background-size: cover;
     height: 90vh;
     
-`
-export const BlackFilter = styled.div `
-    height: inherit;
-    width: 100%;
-    background-color: #000000c7;
-    position: absolute;
 `
 
 export const Image = styled.img `

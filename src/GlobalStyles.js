@@ -10,6 +10,7 @@ export const GlobalStyle = createGlobalStyle `
     }
     a:visited {
         color: #fff;
+        text-decoration: none;
     }
     button {
         cursor: pointer;
