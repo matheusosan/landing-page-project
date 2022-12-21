@@ -6,6 +6,7 @@ import WorkingDays from './components/working_days';
 import { ModalProvider } from './contexts/contexts';
 import Testimonials from './components/testimonials';
 import Affiliate from './components/affiliate';
+import Footer from './components/footer/';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <WorkingDays />
         <Testimonials />
         <Affiliate />
+        <Footer />
     </ModalProvider>
     </>
   )

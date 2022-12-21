@@ -8,11 +8,17 @@ export const GlobalStyle = createGlobalStyle `
         box-sizing: border-box;
 
     }
+
+    a {
+        text-decoration: none;
+    }
+
     a:visited {
         color: #fff;
         text-decoration: none;
     }
     button {
         cursor: pointer;
+        border: none;
     }
 `
