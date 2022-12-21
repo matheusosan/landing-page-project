@@ -13,6 +13,10 @@ export const GlobalStyle = createGlobalStyle `
         text-decoration: none;
     }
 
+    a:link {
+        color: #fff;
+    }
+
     a:visited {
         color: #fff;
         text-decoration: none;
