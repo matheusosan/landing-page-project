@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const Testimonials = styled.section`
   display: flex;
   background-color: #fff;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  height: 40vh;
+  height: 60vh;
   width: 100%;
   gap: 6rem;
 
@@ -56,12 +56,14 @@ export const Testimonials = styled.section`
       justify-content: center;
       gap: 1rem;
       width: 340px;
-      height: 285px;
+      height: auto;
+      padding: 20px;
       -webkit-box-shadow: 10px 10px 17px -3px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: 10px 10px 17px -3px rgba(0, 0, 0, 0.75);
       box-shadow: 10px 10px 17px -3px rgba(0, 0, 0, 0.75);
 
       p {
+        margin-top: 0;
         font-weight: 700;
         font-size: 13px;
         color: #c2c2c2;

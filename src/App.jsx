@@ -5,6 +5,7 @@ import  { Book } from '../src/components/book-now';
 import WorkingDays from './components/working_days';
 import { ModalProvider } from './contexts/contexts';
 import Testimonials from './components/testimonials';
+import Affiliate from './components/affiliate';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Book />
         <WorkingDays />
         <Testimonials />
+        <Affiliate />
     </ModalProvider>
     </>
   )
