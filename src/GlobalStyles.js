@@ -14,13 +14,13 @@ export const GlobalStyle = createGlobalStyle `
     }
 
     a:link {
-        color: #fff;
+        color: inherit;
 
         
     }
 
     a:visited {
-        color: #fff;
+        color: inherit;
         text-decoration: none;
     }
     button {
