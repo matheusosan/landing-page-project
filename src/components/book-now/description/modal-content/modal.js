@@ -4,7 +4,7 @@ export const CustomStyles = {
       alignItems: 'center',
       justifyContent: 'center',
       flexDirection: 'column',
-      width: "80%",
+      width: "60%",
       height: "80%",
       top: "50%",
       left: "50%",
