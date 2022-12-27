@@ -46,6 +46,7 @@ export const ButtonsBox = styled.div `
     margin-top: 80px;
     
     button {
+        color: #fff;
         width: 182px;
         height: 52px;
         font-size: 15px;

@@ -69,6 +69,7 @@ export const WorkingText = styled.div `
     width: 166px;
     height: 39px;
     background: inherit;
+    color: #fff;
     border: 1px solid black;
     font-weight: 700;
     font-size: 16px;

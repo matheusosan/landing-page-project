@@ -32,6 +32,7 @@ export const AboutContainer = styled.div `
 
     button {
         margin-top: 43px;
+        color: #fff;
         width: 188px;
         height: 52px;
         font-size: 15px;
