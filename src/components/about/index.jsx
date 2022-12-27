@@ -1,8 +1,8 @@
 import React from "react";
 import { AboutContainer, ImagesContainer, AboutText } from "./styles";
-import Img1 from "./img1.png";
-import Img2 from "./img2.png";
-import Img3 from "./img3.png";
+import Img1 from "../../assets/images/about/img1.png";
+import Img2 from "../../assets/images/about/img2.png";
+import Img3 from "./../../assets/images/about/img3.png";
 
 const AboutUs = () => {
   return (

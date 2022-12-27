@@ -1,12 +1,13 @@
 import styled from "styled-components";
-import img from './bg2.jpg'
+import Img from '../../assets/images/landing/bg3.jpg'
 
 export const LandingContainer = styled.div `
     display: flex;
     align-items: center;
     width: 100%;
     position: relative;
-    background-image: url(${img});
+    background-image: url(${Img});
+    background-position: center;
     background-size: cover;
     height: 90vh;
     

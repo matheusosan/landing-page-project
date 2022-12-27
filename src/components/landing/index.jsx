@@ -1,5 +1,5 @@
 import React from "react";
-import image from "./image.png";
+import image from "../../assets/images/landing/image.png";
 import { LandingContainer, Image } from "./styles";
 import Header from "./header";
 import MainDescription from "./main";

@@ -1,7 +1,7 @@
 import React from "react";
 import { Testimonials as TestimonialsSection } from "./styles";
-import Julian from "./julian.jpg";
-import Marie from "./marie.jpg";
+import Julian from "../../assets/images/testimonials/julian.jpg";
+import Marie from "../../assets/images/testimonials/marie.jpg";
 import { AiFillStar } from "react-icons/ai";
 
 const Testimonials = () => {

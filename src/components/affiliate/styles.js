@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Bg from "./affiliate_bg.jpg";
+import Bg from "../../assets/images/affiliate/affiliate_bg.jpg";
 
 export const AffiliateSection = styled.section`
   height: 70vh;

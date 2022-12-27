@@ -1,6 +1,6 @@
 import React from "react";
 import { WorkingSection, WorkingContent, WorkingText } from "./styles";
-import Img from "./img.png";
+import Img from "../../assets/images/working/img.png";
 
 const WorkingDays = () => {
   return (

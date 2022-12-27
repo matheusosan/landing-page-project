@@ -2,21 +2,15 @@ import React, { useContext } from "react";
 import { StyledModal } from "./styles";
 import { AiOutlineClose } from "react-icons/ai";
 import { ModalContext } from "../../../../contexts/contexts";
-import { useForm } from "react-hook-form";
+import Form from "../../../form/Form";
 
 const ModalContent = () => {
   const { closeModal } = useContext(ModalContext);
-  const {
-    register,
-    handleSubmit,
-    watch,
-    formState: { errors },
-  } = useForm();
 
   return (
     <StyledModal>
       <AiOutlineClose onClick={closeModal} />
-
+      <Form />
     </StyledModal>
   );
 };

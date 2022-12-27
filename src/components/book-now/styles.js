@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import bg from './book3.jpg'
+import bg from '../../assets/images/book/book3.jpg'
 
 export const BookContainer = styled.main `
     display: flex;
