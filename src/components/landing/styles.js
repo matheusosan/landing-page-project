@@ -10,6 +10,11 @@ export const LandingContainer = styled.div`
   background-position: center;
   background-size: cover;
   height: 90vh;
+
+  @media (max-width: 415px) {
+    justify-content: center;
+    
+  }
 `;
 
 export const Image = styled.img`
@@ -21,5 +26,6 @@ export const Image = styled.img`
 
   @media (max-width: 415px) {
     display: none;
+
   }
 `;

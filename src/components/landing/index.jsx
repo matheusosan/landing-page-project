@@ -5,6 +5,7 @@ import Header from "./header";
 import MainDescription from "./main";
 
 export const Landing = () => {
+
   return (
     <LandingContainer>
       <Header />

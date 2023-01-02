@@ -7,23 +7,23 @@ export const WorkingSection = styled.section`
   height: 80vh;
   width: 100%;
   background-color: #fff;
-
 `;
 
 export const WorkingContent = styled.div`
   display: flex;
   height: 393px;
-  width: 70%;
-  background: #FBB034;
+  width: 100%;
+  background: #fbb034;
+  justify-content: center;
 
   img {
     width: 50%;
     height: 100%;
   }
 
-  >div {
+  > div {
     width: 30%;
-    height: inherit 
+    height: inherit;
   }
 
   @media (max-width: 420px) {
@@ -35,36 +35,36 @@ export const WorkingContent = styled.div`
   }
 `;
 
-export const WorkingText = styled.div `
+export const WorkingText = styled.div`
   display: flex;
   background: inherit;
   justify-content: center;
   flex-direction: column;
   margin-left: 4rem;
   margin-right: 10rem;
-  /* background: inherit; */
+  width: 100%;
 
-  >h2 {
+  > h2 {
     color: #fff;
     font-size: 32px;
   }
 
-  >div {
+  > div {
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px dotted black;
     margin-top: 1rem;
   }
-  >div>h2 {
+  > div > h2 {
     color: #fff;
     font-size: 16px;
   }
-  >div>p {
+  > div > p {
     font-size: 13px;
   }
 
-  >button {
+  > button {
     margin-top: 2rem;
     width: 166px;
     height: 39px;
@@ -76,8 +76,21 @@ export const WorkingText = styled.div `
   }
 
   @media (max-width: 420px) {
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+
     button {
       margin-bottom: 2rem;
     }
+
+    > div {
+      width: 100%;
+    }
+
+    > div > p {
+      width: 100%;
+    }
   }
-`
+`;

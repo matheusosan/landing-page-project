@@ -4,10 +4,12 @@ export const HeaderBar = styled.header `
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: fixed;
+    background: #F00000;
     width: 100%;
-    height: 15vh;
+    height: 10vh;
     top: 0;
+    z-index: 2;
 
 
 

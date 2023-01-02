@@ -1,72 +1,73 @@
 import styled from "styled-components";
 
-export const MainText = styled.main `
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    justify-content: center;;
-    margin-left: 115px;
+export const MainText = styled.main`
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  margin-left: 115px;
 
-    span {
-        margin-bottom: 22px;
-        color: #FBB034;
-    }
+  span {
+    margin-bottom: 22px;
+    color: #fbb034;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #ffff;
+    line-height: 95%;
+  }
+
+  p {
+    margin-top: 22px;
+    color: #9a9a9a;
+    font-weight: 400;
+    font-size: 21px;
+  }
+
+  @media (max-width: 415px) {
+    margin-left: 0;
+    text-align: center;
 
     h1 {
-        font-weight: 700;
-        font-size: 48px;
-        color: #ffff;
-        line-height: 95%;
+      font-size: 2rem;
     }
 
     p {
-        margin-top: 22px;
-        color: #9A9A9A;
-        font-weight: 400;
-        font-size: 21px;
-
+      font-size: 15px;
     }
+  }
+`;
 
-    @media (max-width: 415px) {
-        margin-left: 30px;
+export const ButtonsBox = styled.div`
+  display: flex;
+  margin-top: 80px;
 
-        h1 {
-            font-size: 20px;
-        }
+  button {
+    color: #fff;
+    width: 182px;
+    height: 52px;
+    font-size: 15px;
+    font-weight: 700;
+  }
 
-        p {
-        font-size: 15px;
+  button:first-child {
+    background-color: #fbb034;
+    margin-right: 40px;
+  }
 
-    }
-    }
-`
+  button:nth-child(2) {
+    border: 0.5px solid white;
+    background-color: transparent;
+    color: #fff;
+  }
 
-export const ButtonsBox = styled.div `
-    display: flex;
-    margin-top: 80px;
-    
+  @media (max-width: 415px) {
+    justify-content: center;
+
     button {
-        color: #fff;
-        width: 182px;
-        height: 52px;
-        font-size: 15px;
-        font-weight: 700;
+      width: 120px;
     }
-    
-    button:first-child {
-        background-color: #FBB034;
-        margin-right: 40px;
-    }
-    
-    button:nth-child(2) {
-        border: .5px solid white;
-        background-color: transparent;
-        color: #fff
-    }
-
-    @media (max-width: 415px) {
-        button {
-        width: 120px;
-    }
-    }
-`
+  }
+`;

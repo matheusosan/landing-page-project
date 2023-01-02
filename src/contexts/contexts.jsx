@@ -14,8 +14,18 @@ export const ModalProvider = ({ children }) => {
     setModal(false);
   };
 
+  const [sidebar, setSidebar] = useState(false)
+
+  const openSideBar = (sidebar) => {
+    setSidebar(true)
+  }
+
+  const closeSideBar = (sidebar) => {
+    setSidebar(false)
+  }
+
   return (
-    <ModalContext.Provider value={{ modal, openModal, closeModal }}>
+    <ModalContext.Provider value={{ modal, openModal, closeModal, sidebar, closeSideBar, openSideBar }}>
       {children}
     </ModalContext.Provider>
   );

@@ -1,21 +1,25 @@
-import React from 'react'
-import { HeaderBar, Nav } from './styles'
-import { FiMenu } from 'react-icons/fi'
+import React from "react";
+import { HeaderBar, Nav as Navigation } from "./styles";
+import { FiMenu } from "react-icons/fi";
+import { useContext } from "react";
+import { ModalContext } from "../../../contexts/contexts";
+import SideMenu from "./sidebar";
+import Nav from "../../Nav";
 
 const Header = () => {
+  const { sidebar, openSideBar } = useContext(ModalContext);
+
   return (
     <HeaderBar>
-        <FiMenu />
-        <Nav>
-        <img src="" alt="" />
-            <a href="##">Home</a>
-            <a href="##">About Us</a>
-            <a href="##">Services</a>
-            <a href="##">Contact</a>
-        </Nav>
-            <button>Book Now</button>
-    </HeaderBar>
-  )
-}
+      <FiMenu onClick={openSideBar} />
+      {sidebar && <SideMenu className="animate__animated animate__bounce" />}
 
-export default Header
+      <Navigation>
+        <Nav />
+      </Navigation>
+      <button>Book Now</button>
+    </HeaderBar>
+  );
+};
+
+export default Header;
