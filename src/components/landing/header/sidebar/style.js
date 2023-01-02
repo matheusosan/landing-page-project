@@ -3,19 +3,19 @@ import styled from "styled-components";
 export const SideBar = styled.aside`
   @media (max-width: 415px) {
     position: absolute;
-    background: gray;
+    background: #000000e6;
     left: 0;
     top: 0;
-    width: 80%;
     height: 80vh;
-    z-index: 10;
+    width: 100%;
     animation: slide-right 0.7s both;
 
     svg {
       position: absolute;
-      font-size: 35x;
+      font-size: 35px;
       color: #fff;
-      top: 50px;
+      top: 30px
+      
     }
 
     @keyframes slide-right {

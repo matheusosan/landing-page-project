@@ -17,7 +17,7 @@ const Nav = () => {
     <>
       <NavBox>
         {navigation.map((nav) => (
-          <a href={nav.path}>{nav.name}</a>
+          <a href={nav.path} key={nav.id}>{nav.name}</a>
         ))}
       </NavBox>
     </>

@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <HeaderBar>
       <FiMenu onClick={openSideBar} />
-      {sidebar && <SideMenu className="animate__animated animate__bounce" />}
+      {sidebar && <SideMenu />}
 
       <Navigation>
         <Nav />

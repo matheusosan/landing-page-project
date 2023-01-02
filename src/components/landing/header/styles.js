@@ -5,13 +5,11 @@ export const HeaderBar = styled.header `
     align-items: center;
     justify-content: center;
     position: fixed;
-    background: #F00000;
+    background: #000000e0;
     width: 100%;
     height: 10vh;
     top: 0;
-    z-index: 2;
-
-
+    z-index: 1;
 
     svg {
         color: #fff;
