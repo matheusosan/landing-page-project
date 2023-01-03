@@ -7,12 +7,16 @@ export const WorkingSection = styled.section`
   height: 80vh;
   width: 100%;
   background-color: #fff;
+
+  @media (max-width: 420px) {
+    height: 40vh;
+  }
 `;
 
 export const WorkingContent = styled.div`
   display: flex;
+  width: 70%;
   height: 393px;
-  width: 100%;
   background: #fbb034;
   justify-content: center;
 
@@ -21,14 +25,13 @@ export const WorkingContent = styled.div`
     height: 100%;
   }
 
-  > div {
-    width: 30%;
-    height: inherit;
-  }
-
   @media (max-width: 420px) {
     height: auto;
-
+    box-shadow: 10px 10px 24px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 24px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 24px -4px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;  
+    
     img {
       display: none;
     }
@@ -37,24 +40,26 @@ export const WorkingContent = styled.div`
 
 export const WorkingText = styled.div`
   display: flex;
-  background: inherit;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-left: 4rem;
-  margin-right: 10rem;
   width: 100%;
+  padding: 1rem;
 
   > h2 {
     color: #fff;
     font-size: 32px;
   }
 
+  > p {
+    color: #fff;
+  }
+
   > div {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px dotted black;
     margin-top: 1rem;
+    gap: 1rem;
   }
   > div > h2 {
     color: #fff;
@@ -66,11 +71,11 @@ export const WorkingText = styled.div`
 
   > button {
     margin-top: 2rem;
-    width: 166px;
     height: 39px;
+    width: 200px;
     background: inherit;
     color: #fff;
-    border: 1px solid black;
+    border: 2px solid white;
     font-weight: 700;
     font-size: 16px;
   }
@@ -78,19 +83,34 @@ export const WorkingText = styled.div`
   @media (max-width: 420px) {
     justify-content: center;
     align-items: center;
-    margin-left: 0;
-    margin-right: 0;
+    width: 100%;
+
+    h2 {
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      font-size: 1rem;
+    }
 
     button {
       margin-bottom: 2rem;
     }
 
     > div {
-      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    > div > h2 {
+      font-size: 10px;
     }
 
     > div > p {
-      width: 100%;
+      font-size: 10px;
     }
   }
 `;

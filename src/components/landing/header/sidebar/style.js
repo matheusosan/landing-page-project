@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const SideBar = styled.aside`
   @media (max-width: 415px) {
     position: absolute;
-    background: #000000e6;
+    background: black;
     left: 0;
     top: 0;
     height: 80vh;
@@ -12,7 +12,7 @@ export const SideBar = styled.aside`
 
     svg {
       position: absolute;
-      font-size: 35px;
+      font-size: 25px;
       color: #fff;
       top: 30px
       
