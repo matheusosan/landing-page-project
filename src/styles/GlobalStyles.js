@@ -28,5 +28,8 @@ export const GlobalStyle = createGlobalStyle `
         border: none;
     }
 
+    html{
+        scroll-behavior: smooth;
+      }
 
 `

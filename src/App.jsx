@@ -1,27 +1,15 @@
-import React from 'react'
-import { Landing } from "../src/components/landing";
-import AboutUs from '../src/components/about';
-import  { Book } from '../src/components/book-now';
-import WorkingDays from './components/working_days';
-import { ModalProvider } from './contexts/contexts';
-import Testimonials from './components/testimonials';
-import Affiliate from './components/affiliate';
-import Footer from './components/footer/';
+import React from "react";
+import MainPage from "./components/MainPage";
+import { ModalProvider } from "./contexts/contexts";
 
 const App = () => {
   return (
     <>
-    <ModalProvider>
-        <Landing />
-        <AboutUs />
-        <Book />
-        <WorkingDays />
-        <Testimonials />
-        <Affiliate />
-        <Footer />
-    </ModalProvider>
+      <ModalProvider>
+        <MainPage />
+      </ModalProvider>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
