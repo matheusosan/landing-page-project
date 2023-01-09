@@ -14,7 +14,6 @@ export const GlobalStyle = createGlobalStyle `
 
     a:link {
         color: #fff;
-
         
     }
 

@@ -11,12 +11,12 @@ const SideMenu = () => {
     <S.SideBar>
       <AiOutlineClose onClick={closeSideBar} />
       <div>
-        <a href="#About">About</a>
-        <a href="#BookNow">Book Now</a>
-        <a href="#WorkingDays">Working Days</a>
-        <a href="#Testimonials">Testimonials</a>
-        <a href="#Affiliate">Affiliate</a>
-        <a href="#Footer">Footer</a>
+        <a href="#About" onClick={closeSideBar}>About</a>
+        <a href="#BookNow" onClick={closeSideBar}>Book Now</a>
+        <a href="#WorkingDays" onClick={closeSideBar}>Working Days</a>
+        <a href="#Testimonials" onClick={closeSideBar}>Testimonials</a>
+        <a href="#Affiliate" onClick={closeSideBar}>Affiliate</a>
+        <a href="#Footer" onClick={closeSideBar}>Footer</a>
       </div>
     </S.SideBar>
   );

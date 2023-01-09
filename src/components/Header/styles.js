@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
-export const HeaderBar = styled.header`
+export const HeaderBar = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #000000e0;
   position: sticky;
   top: 0;
-  background: #000000e0;
   width: 100%;
-  height: 10vh;
+  height: 8vh;
   z-index: 1;
 
   div {
@@ -34,8 +34,8 @@ export const HeaderBar = styled.header`
   }
 
   button {
-    width: 182px;
-    height: 52px;
+    width: 180px;
+    height: 40px;
     margin-right: 40px;
     background-color: #fbb034;
     font-weight: 700;
@@ -51,7 +51,7 @@ export const HeaderBar = styled.header`
     scale: 105%;
   }
 
-  @media (max-width: 415px) {
+  @media (max-width: 420px) {
     svg {
       display: flex;
       margin-left: 20px;
@@ -60,7 +60,7 @@ export const HeaderBar = styled.header`
     button {
       margin-right: 20px;
       height: 40px;
-      width: 120px;
+      width: 150px;
       font-size: 12px;
     }
   }

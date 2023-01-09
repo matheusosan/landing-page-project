@@ -9,7 +9,7 @@ export const WorkingSection = styled.section`
   background-color: #fff;
 
   @media (max-width: 420px) {
-    height: 40vh;
+    height: 60vh;
   }
 `;
 
@@ -26,7 +26,7 @@ export const WorkingContent = styled.div`
   }
 
   @media (max-width: 420px) {
-    height: auto;
+    height: 70%;
     box-shadow: 10px 10px 24px -4px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 10px 10px 24px -4px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 24px -4px rgba(0, 0, 0, 0.75);

@@ -11,7 +11,6 @@ import Footer from '../Footer/';
 const MainPage = () => {
   return (
     <>
-        <Header />
         <Landing id="home"/>
         <AboutUs id="About"/>
         <Book id="book"/>
