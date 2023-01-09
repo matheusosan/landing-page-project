@@ -6,13 +6,13 @@ export const SideBar = styled.aside`
     background: black;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 80%;
     height: 100vh;
     animation: slide-right .8s;
 
     svg {
       float: left;
-      position: absolute;
+      position: relative;
       font-size: 25px;
       color: #fff;
       top: 30px;
@@ -22,10 +22,11 @@ export const SideBar = styled.aside`
     div {
       display: flex;
       flex-direction: column;
-      margin-top: 50%;
       align-items: center;
       gap: 1.5rem;
+      margin: 50% 0 0 0;
       justify-content: center;
+      width: 100%;
 
       >a {
         font-size: 1.3rem;

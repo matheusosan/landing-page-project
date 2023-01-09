@@ -10,14 +10,14 @@ const SideMenu = () => {
   return (
     <S.SideBar>
       <AiOutlineClose onClick={closeSideBar} />
-      <div>
-        <a href="#About" onClick={closeSideBar}>About</a>
-        <a href="#BookNow" onClick={closeSideBar}>Book Now</a>
-        <a href="#WorkingDays" onClick={closeSideBar}>Working Days</a>
-        <a href="#Testimonials" onClick={closeSideBar}>Testimonials</a>
-        <a href="#Affiliate" onClick={closeSideBar}>Affiliate</a>
-        <a href="#Footer" onClick={closeSideBar}>Footer</a>
-      </div>
+        <div>
+          <a href="#About" onClick={closeSideBar}>About</a>
+          <a href="#BookNow" onClick={closeSideBar}>Book Now</a>
+          <a href="#WorkingDays" onClick={closeSideBar}>Working Days</a>
+          <a href="#Testimonials" onClick={closeSideBar}>Testimonials</a>
+          <a href="#Affiliate" onClick={closeSideBar}>Affiliate</a>
+          <a href="#Footer" onClick={closeSideBar}>Footer</a>
+        </div>
     </S.SideBar>
   );
 };
