@@ -1,12 +1,6 @@
 import React from "react";
-import { GoogleMap, useJsApiLoader, Marker } from "@react-google-maps/api";
+import { GoogleMap, useJsApiLoader, MarkerF } from "@react-google-maps/api";
 import { Map } from "./styles";
-
-const containerStyle = {
-  width: "70%",
-  height: "70%",
-};
-
 
 export const OurLocation = () => {
   const { isLoaded } = useJsApiLoader({
@@ -14,18 +8,18 @@ export const OurLocation = () => {
     googleMapsApiKey: `${process.env.REACT_APP_API_KEY}`,
   });
 
-  const position = { lat: 37.772, lng: -122.214 };
-  
   return (
     <Map id="OurLocation">
       <h2>Come Visit Us</h2>
       {isLoaded ? (
         <GoogleMap
-          mapContainerStyle={containerStyle}
-          center={position}
-          zoom={13}
+          center={{ lat: -27.5969, lng: -48.5495 }}
+          zoom={16}
+          mapContainerStyle={{ height: "70%", width: "70%" }}
         >
-          <Marker position={position} />
+          <MarkerF
+            position={{ lat: -27.5969, lng: -48.5495 }}
+          />
         </GoogleMap>
       ) : (
         <></>
