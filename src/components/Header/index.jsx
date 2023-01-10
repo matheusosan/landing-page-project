@@ -22,7 +22,7 @@ const Header = () => {
           <a href="#WorkingDays">Working Days</a>
           <a href="#Testimonials">Testimonials</a>
           <a href="#Affiliate">Affiliate</a>
-          <a href="#Footer">Footer</a>
+          <a href="#OurLocation">Visit Us</a>
         </S.Nav>
         <button>Book Now</button>
       </S.HeaderBar>

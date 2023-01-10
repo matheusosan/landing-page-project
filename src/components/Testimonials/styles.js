@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Testimonials = styled.section`
   display: flex;
   background-color: #fff;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   height: 60vh;
   width: 100%;
