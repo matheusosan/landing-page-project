@@ -5,7 +5,7 @@ import { Map } from "./styles";
 export const OurLocation = () => {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: `${process.env.REACT_APP_API_KEY}`,
+    googleMapsApiKey: "AIzaSyBX4EqwvNckM56d4a4sqFuSMnAPby1VfKg",
   });
 
   return (
