@@ -16,7 +16,7 @@ const SideMenu = () => {
           <a href="#WorkingDays" onClick={closeSideBar}>Working Days</a>
           <a href="#Testimonials" onClick={closeSideBar}>Testimonials</a>
           <a href="#Affiliate" onClick={closeSideBar}>Affiliate</a>
-          <a href="#Footer" onClick={closeSideBar}>Footer</a>
+          <a href="#OurLocation" onClick={closeSideBar}>Visit Us</a>
         </div>
     </S.SideBar>
   );

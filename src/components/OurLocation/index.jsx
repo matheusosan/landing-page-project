@@ -7,7 +7,6 @@ const containerStyle = {
   height: "70%",
 };
 
-const location = { lat: -30.032756, lng: -51.231028 };
 
 export const OurLocation = () => {
   const { isLoaded } = useJsApiLoader({
@@ -15,16 +14,18 @@ export const OurLocation = () => {
     googleMapsApiKey: `${process.env.REACT_APP_API_KEY}`,
   });
 
+  const position = { lat: 37.772, lng: -122.214 };
+  
   return (
     <Map id="OurLocation">
       <h2>Come Visit Us</h2>
       {isLoaded ? (
         <GoogleMap
           mapContainerStyle={containerStyle}
-          center={location}
-          zoom={14}
+          center={position}
+          zoom={13}
         >
-          <Marker position={location} />
+          <Marker position={position} />
         </GoogleMap>
       ) : (
         <></>
