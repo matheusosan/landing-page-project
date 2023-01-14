@@ -13,7 +13,7 @@
 
 ## 🎨 Preview
 <div allign="center">
-![Captura de tela de 2023-01-13 21-56-01](https://user-images.githubusercontent.com/14915767/212442931-b93d33d1-86b4-4f89-9628-932393620cb7.png)
+![sebastian-herrmann-NbtIDoFKGO8-unsplash (1)](https://user-images.githubusercontent.com/14915767/212443885-78cbc624-637c-437f-bf42-9341c4f715d4.jpg)
 <div/>
 
 ## 🛠 Tecnologias
