@@ -12,7 +12,9 @@
 - Consumo a API do Google Maps para localização.
 
 ## 🎨 Preview
-![e-commerce coldtech](https://user-images.githubusercontent.com/99041150/194732019-7ae5cc62-3d6f-41b7-8adb-08ed1d10a6ba.gif)
+<div allign="center">
+![Captura de tela de 2023-01-13 21-56-01](https://user-images.githubusercontent.com/14915767/212442931-b93d33d1-86b4-4f89-9628-932393620cb7.png)
+<div/>
 
 ## 🛠 Tecnologias
 Projeto realizado em cima das seguintes tecnologias:
