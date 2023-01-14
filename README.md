@@ -1,23 +1,21 @@
-<p allign="center">
+<h2 align="center" >
   Choppers Salon
-</p>
+</h2>
 
 ## 💻 Sobre o Projeto
 <p>
-  O projeto trata-se de uma landing page encontrada em um design no Figma.
+  O projeto trata-se de uma landing page de uma barbearia, design encontrado no Figma.
 </p>
 
-## ⚙ Funcionalides
+## 🎨 Preview
+![landing-pic](https://user-images.githubusercontent.com/14915767/212443967-5e1d22b5-f76e-468a-884d-456016c067e8.png)
+
+## ⚙ Features
 - Smooth scroll a cada section da página.
 - Consumo a API do Google Maps para localização.
 
-## 🎨 Preview
-<div allign="center">
-![sebastian-herrmann-NbtIDoFKGO8-unsplash (1)](https://user-images.githubusercontent.com/14915767/212443885-78cbc624-637c-437f-bf42-9341c4f715d4.jpg)
-<div/>
-
 ## 🛠 Tecnologias
-Projeto realizado em cima das seguintes tecnologias:
+Projeto criado usando as seguintes tecnologias:
 
 - Styled Components
 - CSS3
