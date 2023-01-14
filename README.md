@@ -17,9 +17,8 @@
 ## 🛠 Tecnologias
 Projeto criado usando as seguintes tecnologias:
 
-- Styled Components
-- CSS3
 - HTML5
+- CSS3
 - JavaScript ES6
 - ReactJS
 - Styled-Components
